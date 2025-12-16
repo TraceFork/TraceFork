@@ -18,6 +18,6 @@ export default defineConfig({
     target: 'esnext'
   },
   optimizeDeps: {
-    include: ['react', 'react-dom', 'three', '@react-three/fiber', '@react-three/drei', 'gsap']
+    include: ['react', 'react-dom', 'three', '@react-three/fiber', '@react-three/drei', '@react-three/postprocessing', 'gsap']
   }
 });
